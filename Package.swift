@@ -16,8 +16,10 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(
-            name: "OpenCV-package"
-        ),
+        .binaryTarget(
+            name: "OpenCV-package",
+            url: "https://github.com/PavelKoyushev/OpenCV-package/releases/download/1.0.0/opencv2.xcframework.zip",
+            checksum: "57134608721f892e8a529475aefd060b616ab2e343e6cbe2435cdf58773751d7"
+        )
     ]
 )
