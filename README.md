@@ -15,7 +15,7 @@ Add the dependency to your `Package.swift`:
 dependencies: [
     .package(
         name: "OpenCV-package",
-        url: "https://github.com/PavelKoyushev/OpenCV-package.git",
+        url: "https://github.com/PavelKoyushev/OpenCV-package",
         .upToNextMajor(from: "1.0.0")
     )
 ]
